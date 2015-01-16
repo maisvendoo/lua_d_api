@@ -378,7 +378,7 @@ extern(C)
 }
 	/******************************************************************************
 	/
-	/	Prorted to D language by Dmitry Pritykin (maisvendoo)
+	/	Ported to D language by Dmitry Pritykin (maisvendoo)
 	/	Russia, Rostov-on-Don, 2015/01/16
 	/
 	/*****************************************************************************/
