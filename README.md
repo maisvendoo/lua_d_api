@@ -1,11 +1,11 @@
-Lua API for D language
+# Lua API for D language
 
-======================
+
 
 D language modules for access to Lua API functions
 
-Usage
------
+## Usage
+
 
 1. Clone this project by git clone https://github.com/maisvendoo/lua_d_api.git
 2. Copy all \*.d files in your project foldel
@@ -14,22 +14,21 @@ Usage
 
 For example:
 
-`
-module	main;
 
-import	lua;
-import	lualib;
-import	lauxlib;
+	module	main;
 
-void main()
-{
-	lua_State *L = lauL_newstate();
+	import	lua;
+	import	lualib;
+	import	lauxlib;
 
-	/*  Here you can use Lua API */
+	void main()
+	{
+		lua_State *L = lauL_newstate();
 
-	lua_close(L);
-}
-`
+		 
+
+		lua_close(L);
+	}
 
 
 You can use Lua API functions in your D program (same as in Lua C API)
