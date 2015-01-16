@@ -1,0 +1,10 @@
+{
+	"name": "LuaD_API",
+	"description": "Lua API for D language",
+	"authors": ["Dmitry Pritykin"],
+	"homepage": "https://github.com/maisvendoo/lua_d_api",
+	"license": "GPL-2.0",
+	"dependencies": {
+		"lua": ">=5.2.0"
+	}
+}
