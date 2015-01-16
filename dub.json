@@ -1,5 +1,5 @@
 {
-	"name": "LuaD_API",
+	"name": "lua_d_api",
 	"description": "Lua API for D language",
 	"authors": ["Dmitry Pritykin"],
 	"homepage": "https://github.com/maisvendoo/lua_d_api",
