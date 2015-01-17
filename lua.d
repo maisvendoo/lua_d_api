@@ -333,10 +333,7 @@ extern(C)
 	enum	int		LUA_MASKLINE		= (1 << LUA_HOOKLINE);
 	enum	int		LUA_MASKCOUNT		= (1 << LUA_HOOKCOUNT);
 
-	struct	CallInfo
-	{
-
-	}
+	struct	CallInfo{}
 
 	/* activation record */
 	struct	lua_Debug
