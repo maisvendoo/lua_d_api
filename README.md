@@ -25,7 +25,7 @@ For example:
 	{
 		lua_State *L = lauL_newstate();
 
-		 
+		 /* Write here your code for work with Lua */
 
 		lua_close(L);
 	}
